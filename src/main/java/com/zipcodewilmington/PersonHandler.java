@@ -13,8 +13,12 @@ public class PersonHandler {
     public String whileLoop() {
         String result = "";
         // assume there is a `counter`
+        int counter = 0;
         // while `counter` is less than length of array
             // begin loop
+        while (counter > personArray.length) {
+
+        }
 
                 // use `counter` to identify the `current Person` in the array
                 // get `string Representation` of `currentPerson`
